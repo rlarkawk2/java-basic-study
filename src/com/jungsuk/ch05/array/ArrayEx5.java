@@ -8,6 +8,7 @@ public class ArrayEx5 {
 		 * 예제5-5. 총합과 평균
 		 * 배열의 모든 요소의 총합과 평균을 구함
 		 */
+
 		int sum = 0;
 		int[] arr = new int[] {1,2,3,4,5};
 
