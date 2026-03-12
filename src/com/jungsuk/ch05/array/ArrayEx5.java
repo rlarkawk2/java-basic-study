@@ -1,7 +1,5 @@
 package com.jungsuk.ch05.array;
 
-import java.util.Scanner;
-
 public class ArrayEx5 {
 	public static void main(String[] args) {
 		/*
