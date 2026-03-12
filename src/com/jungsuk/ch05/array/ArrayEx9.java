@@ -14,7 +14,7 @@ public class ArrayEx9 {
 			int num = (int)(Math.random() * arr.length);
 			arr[i] = num;
 		}
-		
+
 		System.out.println(Arrays.toString(arr));
 	}
 }
