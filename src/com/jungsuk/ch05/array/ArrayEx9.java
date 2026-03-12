@@ -9,7 +9,7 @@ public class ArrayEx9 {
 		 * 불연속적인 값들로 배열 채우기
 		 */
 		int[] arr = new int[10];
-		
+	
 		for(int i = 0; i < arr.length; i++) {
 			int num = (int)(Math.random() * arr.length);
 			arr[i] = num;
