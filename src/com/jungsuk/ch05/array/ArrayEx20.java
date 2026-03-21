@@ -21,14 +21,16 @@ public class ArrayEx20{
 			}
 		}
 		
+		Scanner sc = new Scanner(System.in);
+
 		while(true) {
 			System.out.print("좌표를 입력하세요(종료는 0) >> ");
-			Scanner sc = new Scanner(System.in);
 			String numStr = sc.nextLine();
 			char[] numChar = numStr.toCharArray();
 			
 			if(numStr.equals("0")){
 				System.out.println("종료되었습니다.");
+				
 				break;
 			}
 			else if(numStr.length() > 2 || numStr.length() <= 1){
@@ -47,6 +49,8 @@ public class ArrayEx20{
 			}
 			
 		}
+
+		sc.close();
 		
 		for(int i = 0; i < arr.length; i++) {
 			System.out.println(Arrays.toString(arr[i]));
