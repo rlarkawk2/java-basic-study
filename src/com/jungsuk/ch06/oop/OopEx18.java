@@ -6,6 +6,7 @@ package com.jungsuk.ch06.oop;
  */
 
 public class OopEx18 {
+
 	public static void main(String[] args) {
 		int x = 2;
 		int num = 5;
