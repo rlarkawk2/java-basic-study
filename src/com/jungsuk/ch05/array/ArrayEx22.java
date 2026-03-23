@@ -21,7 +21,7 @@ public class ArrayEx22 {
 			}
 		}
 		
-		/* 곱셈 계산 */
+		/* 곱셈 계산 - i 행 고정, j 열 고정, k 계산 도우미 */
 		for(int i = 0; i < SIZE; i++) {
 			for(int j = 0; j < SIZE; j++) {
 				for(int k = 0; k < SIZE; k++) {
