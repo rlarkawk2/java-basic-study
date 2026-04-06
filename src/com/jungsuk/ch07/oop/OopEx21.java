@@ -1,5 +1,10 @@
 package com.jungsuk.ch07.oop;
 
+/*
+ * 예제 7-21
+ * 다형성
+ */
+
 public class OopEx21 {
 	public static void main(String[] args) {
 		Buyer buyer = new Buyer();
@@ -26,6 +31,7 @@ class Tv extends Product{
 	Tv() {
 		super(100);
 	}
+
 	
 	public String toString(){
 		return "Tv";
